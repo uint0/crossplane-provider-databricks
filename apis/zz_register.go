@@ -10,9 +10,9 @@ package apis
 import (
 	"k8s.io/apimachinery/pkg/runtime"
 
-	v1alpha1 "github.com/upbound/upjet-provider-template/apis/null/v1alpha1"
-	v1alpha1apis "github.com/upbound/upjet-provider-template/apis/v1alpha1"
-	v1beta1 "github.com/upbound/upjet-provider-template/apis/v1beta1"
+	v1alpha1 "github.com/uint0/provider-databricks/apis/cluster/v1alpha1"
+	v1alpha1apis "github.com/uint0/provider-databricks/apis/v1alpha1"
+	v1beta1 "github.com/uint0/provider-databricks/apis/v1beta1"
 )
 
 func init() {
