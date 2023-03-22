@@ -1,0 +1,11 @@
+apiVersion: cluster.databricks.upbound.io/v1alpha1
+kind: Cluster
+metadata:
+  name: cz-hello-crossplane
+spec:
+  forProvider:
+    numWorkers: 1
+    sparkVersion: "12.0.x-scala2.12"
+    nodeTypeId: "i3.xlarge"
+  providerConfigRef:
+    name: default
